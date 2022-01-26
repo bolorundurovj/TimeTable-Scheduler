@@ -60,7 +60,8 @@ INSERT INTO `class` (`class_id`, `class_name`) VALUES
 (1, '100 Level'),
 (2, '200 Level'),
 (3, '300 Level'),
-(4, '400 Level');
+(4, '400 Level'),
+(5, '500 Level');
 
 -- --------------------------------------------------------
 
