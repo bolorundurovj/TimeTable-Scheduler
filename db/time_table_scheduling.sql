@@ -39,7 +39,7 @@ CREATE TABLE `app_user` (
 --
 
 INSERT INTO `app_user` (`user_id`, `username`, `firstname`, `lastname`, `password`) VALUES
-(1, 'muhammad', 'Muhammad', '', 'muhammad');
+(1, 'john', 'John', 'Doe', 'secret');
 
 -- --------------------------------------------------------
 
