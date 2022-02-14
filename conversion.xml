@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\bolor\OneDrive\Desktop\TimeTable Scheduler\dist\Time_Table_Scheduling.jar</jar>
+  <outfile>C:\Users\bolor\OneDrive\Desktop\TimeTable Scheduler\dist\Timetable Scheduler.exe</outfile>
+  <errTitle>Please download and install java first</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\bolor\OneDrive\Desktop\TimeTable Scheduler\src\com\image\index.ico</icon>
+  <singleInstance>
+    <mutexName>TimetableScheduler</mutexName>
+    <windowTitle>TimetableScheduler</windowTitle>
+  </singleInstance>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0.0</txtFileVersion>
+    <fileDescription>Timetable Scheduler for Universities</fileDescription>
+    <copyright>NIL</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0.0</txtProductVersion>
+    <productName>TimetableScheduler</productName>
+    <companyName>Group 10</companyName>
+    <internalName>TimetableScheduler</internalName>
+    <originalFilename>TimetableScheduler.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>

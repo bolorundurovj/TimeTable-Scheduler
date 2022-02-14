@@ -3,6 +3,12 @@ package com.timetable;
 import java.util.ArrayList;
 import java.util.stream.IntStream;
 
+/**
+ * 
+ * @author Bolorunduro Valiant-Joshua
+ * @version 1.0.0
+ */
+
 public class Population {
 	
 	private ArrayList<Schedule> schedules;

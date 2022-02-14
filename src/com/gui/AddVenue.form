@@ -192,8 +192,7 @@
                 </LineBorder>
               </Border>
             </Property>
-            <Property name="maximum" type="int" value="300"/>
-            <Property name="minimum" type="int" value="0"/>
+            <Property name="maximum" type="int" value="1500"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">

@@ -81,8 +81,7 @@ public class AddVenue extends javax.swing.JInternalFrame {
         jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, -1, 20));
 
         capacity.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 204)));
-        capacity.setMaximum(300);
-        capacity.setMinimum(0);
+        capacity.setMaximum(1500);
         jPanel1.add(capacity, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 100, 40, 30));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 430, 190));

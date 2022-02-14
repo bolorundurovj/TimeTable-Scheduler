@@ -5,6 +5,12 @@ import java.util.ArrayList;
 import com.genetic_algorithm_resource.Department;
 import com.genetic_algorithm_resource.Class;
 
+/**
+ * 
+ * @author Bolorunduro Valiant-Joshua
+ * @version 1.0.0
+ */
+
 public class Schedule {
 	
 	private ArrayList<Class> classes;
@@ -62,6 +68,10 @@ public class Schedule {
 		return fitness;
 	}
 	
+        /**
+         * Calculate chromosome fitness
+         * @return fitnessScore
+         */
 	private double calculateFitness()
 	{
 		numbOfConflicts = 0;

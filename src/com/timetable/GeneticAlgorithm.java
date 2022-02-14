@@ -3,6 +3,13 @@ package com.timetable;
 import java.util.ArrayList;
 import java.util.stream.IntStream;
 
+/**
+ * Genetic Algorithm
+ * @author Bolorunduro Valiant-Joshua
+ * @version 1.0.0
+ * @since 1.0.0
+ */
+
 public class GeneticAlgorithm {
 	
 	private Data data;
@@ -17,6 +24,11 @@ public class GeneticAlgorithm {
 		return mutatePopulation(crossoverPopulation(population));
 	}
 	
+        /**
+         * 
+         * @param population
+         * @return crossoverPopulation
+         */
 	Population crossoverPopulation(Population population)
 	{
 		Population crossoverPopulation = new Population(population.getSchedules().size(), data);
@@ -34,6 +46,12 @@ public class GeneticAlgorithm {
 		return crossoverPopulation;
 	}
 	
+        /**
+         * 
+         * @param schedule1
+         * @param schedule2
+         * @return crossoverSchedule
+         */
 	Schedule crossoverSchedule(Schedule schedule1, Schedule schedule2)
 	{
 		Schedule crossoverSchedule = new Schedule(data).initialize();
@@ -46,6 +64,11 @@ public class GeneticAlgorithm {
 		return crossoverSchedule;
 	}
 	
+        /**
+         * 
+         * @param population
+         * @return mutatePopulation
+         */
 	Population mutatePopulation(Population population)
 	{
 		Population mutatePopulation = new Population(population.getSchedules().size(), data);
@@ -61,6 +84,11 @@ public class GeneticAlgorithm {
 		return mutatePopulation;
 	}
 	
+        /**
+         * 
+         * @param mutateSchedule
+         * @return mutateSchedule
+         */
 	Schedule mutateSchedule(Schedule mutateSchedule)
 	{
 		Schedule schedule = new Schedule(data).initialize();
@@ -72,6 +100,11 @@ public class GeneticAlgorithm {
 		return mutateSchedule;
 	}
 	
+        /**
+         * 
+         * @param population
+         * @return tournamentPopulation
+         */
 	Population selectTournamentPopulation(Population population)
 	{
 		Population tournamentPopulation = new Population(Driver.TOURNAMENT_SELECTION_SIZE, data);

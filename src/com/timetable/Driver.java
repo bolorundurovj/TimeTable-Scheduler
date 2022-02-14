@@ -6,6 +6,13 @@ import java.util.ArrayList;
 
 import com.genetic_algorithm_resource.Class;
 
+/**
+ * Genetic Algorithm Driver
+ * @author Bolorunduro Valiant-Joshua
+ * @version 1.0.0
+ * @since 1.0.0
+ */
+
 public class Driver {
 	public static final int POPULATION_SIZE = 9;
 	public static final double MUTATION_RATE = 0.1;

@@ -34,6 +34,11 @@ public class Data {
 		initialize();
 	}
 	
+        /**
+         * Initialize Data for Genetic Algorithm
+         * @return data
+         * @throws Exception 
+         */
 	private Data initialize() throws Exception
 	{
             PreparedStatement st;
