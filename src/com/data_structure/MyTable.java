@@ -8,10 +8,26 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.table.TableColumn;
 
+/**
+ * MyTable.
+ *
+ * @author Bolorunduro Valiant-Joshua
+ * @author Chukwuma Richard
+ * @author David Michael
+ * @version 1.0.0
+ * @since 1.0.0
+ */
+
 public class MyTable {
     private static JTable table;
     private static ResultSetTableModel tableModel;
     
+    /**
+     * Create Table
+     * @param defQuery
+     * @param metaD
+     * @return table
+     */
     public static JTable createTable (String defQuery, String[] metaD){
 	final String DEFAULT_QUERY = defQuery;
         String meta[]=metaD;

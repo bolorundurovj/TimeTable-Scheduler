@@ -1,14 +1,33 @@
 package com.data_structure;
 
+/**
+ * Association.
+ *
+ * @author Bolorunduro Valiant-Joshua
+ * @author Chukwuma Richard
+ * @author David Michael
+ * @version 1.0.0
+ * @since 1.0.0
+ */
+
 public class Association implements Comparable{
     protected Comparable key;
     protected Object value;
 
+    /**
+     * 
+     * @param comparable
+     * @param obj 
+     */
     public Association(Comparable comparable, Object obj){
         key = comparable;
         value = obj;
     }
 
+    /**
+     * 
+     * @param comparable 
+     */
     public Association(Comparable comparable){
         this(comparable, null);
     }

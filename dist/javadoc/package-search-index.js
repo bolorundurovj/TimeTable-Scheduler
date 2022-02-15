@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.data_structure"},{"l":"com.genetic_algorithm_resource"},{"l":"com.gui"},{"l":"com.timetable"}];updateSearchResults();

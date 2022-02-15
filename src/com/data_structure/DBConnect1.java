@@ -1,6 +1,17 @@
 package com.data_structure;
 import javax.swing.JOptionPane;
 import java.sql.*;
+
+/**
+ * DB Connection.
+ *
+ * @author Bolorunduro Valiant-Joshua
+ * @author Chukwuma Richard
+ * @author David Michael
+ * @version 1.0.0
+ * @since 1.0.0
+ */
+
 public class DBConnect1 {
     public static Connection con;
     public static ResultSet rs;

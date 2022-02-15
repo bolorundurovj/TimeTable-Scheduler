@@ -1,7 +1,22 @@
 package com.data_structure;
 
+/**
+ * MySearchableContainer.
+ *
+ * @author Bolorunduro Valiant-Joshua
+ * @author Chukwuma Richard
+ * @author David Michael
+ * @version 1.0.0
+ * @since 1.0.0
+ */
+
 public class MySearchableContainer extends MyContainer implements SearchableContainer {
 	
+    /**
+     * Find Index.
+     * @param target
+     * @return 
+     */
 	private int findIndex(Comparable target){
 		int index = 0;
 		while(index < count && !array[index].equals(target)) 
@@ -13,6 +28,10 @@ public class MySearchableContainer extends MyContainer implements SearchableCont
 			return -1;
 	}
 	
+        /**
+         * Remove from array.
+         * @param target 
+         */
 	public void withdraw(Comparable target){
 		int index = findIndex(target);
 		if(index != -1) {  //the target exists
@@ -22,7 +41,12 @@ public class MySearchableContainer extends MyContainer implements SearchableCont
 			count--;
 		}
 	}
-	//returns the reference to the target if found, null otherwise 
+	
+        /**
+         * Returns the reference to the target if found, null otherwise
+         * @param target
+         * @return index
+         */
 	public Comparable find(Comparable target) {
             // to be implemented by students
 	    if(isMember(target)){
@@ -31,7 +55,12 @@ public class MySearchableContainer extends MyContainer implements SearchableCont
             }
             return null;
 	}
-    //returns true if target is in the container, false otherwise.	
+    
+        /**
+         * Returns true if target is in the container, false otherwise.
+         * @param target
+         * @return boolean
+         */
 	public boolean isMember(Comparable target) {
 		// to be implemented by students
 		int index=findIndex(target);

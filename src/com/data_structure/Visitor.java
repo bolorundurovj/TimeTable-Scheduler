@@ -1,6 +1,18 @@
 package com.data_structure;
 
-public interface Visitor  {
-	void visit (Object object);
-	boolean isDone ();
+/**
+ * Visitor.
+ *
+ * @author Bolorunduro Valiant-Joshua
+ * @author Chukwuma Richard
+ * @author David Michael
+ * @version 1.0.0
+ * @since 1.0.0
+ */
+
+public interface Visitor {
+
+    void visit(Object object);
+
+    boolean isDone();
 }
