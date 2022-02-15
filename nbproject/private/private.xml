@@ -3,11 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/bolor/OneDrive/Desktop/TimeTable%20Scheduler/src/com/gui/AddCourse.java</file>
-            <file>file:/C:/Users/bolor/OneDrive/Desktop/TimeTable%20Scheduler/src/com/gui/ViewLecturer.java</file>
-            <file>file:/C:/Users/bolor/OneDrive/Desktop/TimeTable%20Scheduler/src/com/data_structure/DBConnect.java</file>
-            <file>file:/C:/Users/bolor/OneDrive/Desktop/TimeTable%20Scheduler/src/com/data_structure/ResultSetTableModel.java</file>
-            <file>file:/C:/Users/bolor/OneDrive/Desktop/TimeTable%20Scheduler/src/com/gui/GenerateTimeTable.java</file>
+            <file>file:/C:/Users/bolor/OneDrive/Desktop/TimeTable%20Scheduler/src/com/timetable/Schedule.java</file>
+            <file>file:/C:/Users/bolor/OneDrive/Desktop/TimeTable%20Scheduler/src/com/data_structure/AbstractContainer.java</file>
         </group>
     </open-files>
 </project-private>
