@@ -140,6 +140,7 @@ public class GenerateTimeTable extends javax.swing.JInternalFrame {
 
     public void printScheduleAsTable(Schedule schedule, int generation)
     {
+        System.out.print(schedule);
         if (schedule.getFitness() == 1){
             ArrayList<com.genetic_algorithm_resource.Class> classes = schedule.getClasses();
             report.append("\n------- Generated Time Table -------");

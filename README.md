@@ -11,23 +11,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://www.futa.edu.ng">
-    <img src="https://www.futa.edu.ng/asset/img/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://bolorundurovj.github.io/TimeTable-Scheduler/">
+    <img src="https://www.futa.edu.ng/asset/img/logo.png" alt="Logo" width="280" height="50">
   </a>
 
   <h3 align="center">University Timetable Generator</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An efficient tool for generating working university semester timetables.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://bolorundurovj.github.io/TimeTable-Scheduler/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://bolorundurovj.github.io/TimeTable-Scheduler/">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/bolorundurovj/TimeTable-Scheduler/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/bolorundurovj/TimeTable-Scheduler/issues">Request Feature</a>
   </p>
 </div>
 
@@ -64,7 +64,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Time Tabler](https://www.futa.edu.ng/asset/img/logo.png)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -83,16 +83,9 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [JAVA](https://www.java.com/)
+* [JavaX Swing](https://docs.oracle.com/javase/7/docs/api/javax/swing/package-summary.html)
+* [MySQL](https://www.mysql.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -107,7 +100,10 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* JRE >= 1.8.0
+* JDK >= 17.0.0
+* MySQL JDBC Connector JAR >= 8.0.0
+
   ```sh
   npm install npm@latest -g
   ```
